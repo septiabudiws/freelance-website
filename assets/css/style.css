@@ -1284,3 +1284,46 @@ ul.blog_pagination li a:hover {
   border-radius: 20px;
   background: #000;
 }
+
+.nilsbrown-footer-section {
+  background: #232323;
+  padding: 75px 0 60px 0;
+  width: 100%;
+}
+.nilsbrown-footer-social-link {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 0;
+}
+.nilsbrown-footer-social-link li {
+  display: inline-block;
+  background-color: transparent;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 0.3 ease-in-out;
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  font-size: 12px;
+  margin-left: 5px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.nilsbrown-footer-social-link li i {
+  color: #ffffff;
+  font-size: larger;
+}
+.nilsbrown-footer-section h5 {
+  font-family: "Syne", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.nilsbrown-footer-section p {
+  color: #ffffff;
+}
