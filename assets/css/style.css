@@ -1327,3 +1327,12 @@ ul.blog_pagination li a:hover {
 .nilsbrown-footer-section p {
   color: #ffffff;
 }
+
+.hubungi {
+  margin-top: 15px;
+  margin-bottom: 0;
+  line-height: 32px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
