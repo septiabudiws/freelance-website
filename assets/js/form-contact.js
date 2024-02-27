@@ -27,19 +27,21 @@ $(document).ready(function() {
 
      $("#loader").show();
         $.ajax({
-            url: "assets/php/contact.php",
-            type: "POST",
-            data:  new FormData(this),
-            contentType: false,
-            cache: false,
-            processData:false,
-            success: function(data){
-			  $('form#contact-form').slideUp("fast", function() {
-			  $(this).before('<div class="success">Thank you. Your Email was sent successfully.</div>');
-			  $("#loader").hide();
-			  })
-            }           
-       });
+          url: form.attr("action"),
+          type: "POST",
+          data: new FormData(this),
+          contentType: false,
+          cache: false,
+          processData: false,
+          success: function (data) {
+            $("form#contact-form").slideUp("fast", function () {
+              $(this).before(
+                '<div class="success">Thank you. Your Email was sent successfully.</div>'
+              );
+              $("#loader").hide();
+            });
+          },
+        });
 	   
 	   return false;
     }
